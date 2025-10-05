@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #0b0e1f;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.search input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.panel {
+  background: #1e2433;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+}

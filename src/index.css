@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* NASA Space Theme - Deep Space Colors */
+    --background: 220 40% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 35% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 35% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    /* NASA Blue as primary */
+    --primary: 214 88% 31%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 220 30% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 25% 12%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Cyan accent for cosmic feel */
+    --accent: 190 95% 55%;
+    --accent-foreground: 220 40% 5%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 30% 18%;
+    --input: 220 30% 18%;
+    --ring: 214 88% 31%;
+
+    --radius: 0.75rem;
+
+    /* Mars orange for highlights */
+    --mars: 25 95% 60%;
+    --mars-foreground: 220 40% 5%;
+
+    /* Cosmic gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(220, 40%, 5%) 0%, hsl(240, 50%, 10%) 50%, hsl(260, 40%, 8%) 100%);
+    --gradient-nebula: linear-gradient(to right, hsl(214, 88%, 31%), hsl(190, 95%, 55%));
+    --gradient-hero: linear-gradient(180deg, hsl(220, 40%, 5%) 0%, hsl(220, 50%, 8%) 100%);
+
+    /* Glow effects */
+    --glow-primary: 0 0 20px hsla(214, 88%, 31%, 0.5);
+    --glow-accent: 0 0 20px hsla(190, 95%, 55%, 0.4);
+    --glow-mars: 0 0 20px hsla(25, 95%, 60%, 0.4);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
