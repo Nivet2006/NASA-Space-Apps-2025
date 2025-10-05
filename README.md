@@ -1,4 +1,4 @@
-#  NASA Visual Explorer
+#  NASA Visual Explorer | Source-D-Code
 
 A web platform, built for exploring **NASA’s massive gigapixel-scale imagery collection** — from Earth to deep space.  
 Users can zoom, pan, annotate, and search across NASA archives using an interactive, high-performance image viewer powered by **OpenSeadragon**.
